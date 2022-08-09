@@ -55,11 +55,13 @@ img {
 
 main div {
     position: relative;
-    background-color: aqua;
+    background-color: rgba(77, 189, 122, 0.872);
     border: 5px;
     border-style: solid;
-    border-color: red;
+    border-color: #4d5251;
     outline: 6px solid #0D1F22;
     margin: 0 auto 0 auto;
     width: 50%;
 }
+
+
