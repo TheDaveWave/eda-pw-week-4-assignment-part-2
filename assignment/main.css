@@ -71,3 +71,9 @@ main div {
     border: 1px #000 solid;
     position: relative;
 }
+
+.box-bounds {
+    padding: 10px;
+    position: absolute;
+}
+
