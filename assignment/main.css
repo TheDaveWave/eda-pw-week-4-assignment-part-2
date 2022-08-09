@@ -27,8 +27,9 @@ h3 {
 
 img {
     border-style: solid;
-    border-width: 4px;
+    border-width: 6px;
     border-color: #1A281F;
     animation-name: test;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
