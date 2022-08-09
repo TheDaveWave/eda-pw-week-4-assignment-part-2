@@ -64,4 +64,10 @@ main div {
     width: 50%;
 }
 
-
+.container {
+    margin: 0 auto;
+    height: 300px;
+    width: 100%;
+    border: 1px #000 solid;
+    position: relative;
+}
