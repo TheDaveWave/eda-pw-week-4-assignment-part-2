@@ -32,4 +32,8 @@ img {
     animation-name: test;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    width: 50%;
 }
