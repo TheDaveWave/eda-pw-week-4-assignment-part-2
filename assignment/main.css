@@ -34,11 +34,23 @@ img {
     animation-iteration-count: infinite;
     display: block;
     margin: 0 auto 0 auto;
-    padding: 0;
-    width: 50%;
+    /* padding: 0; */
+    /* width: 50%; */
 }
 
-main div div{
+.img-info {
+    display: block;
     text-align: center;
+    border: 0;
+    padding: 0;
+    width: 50%;    
+}
 
+main div {
+    position: relative;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    margin: 0 auto 0 auto;
+    width: 75%;
 }
