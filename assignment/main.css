@@ -13,6 +13,12 @@ h3 {
     color: aliceblue;
 }
 
+h2, h3 {
+    padding: 0;
+    border: 0;
+    margin: 2.5% auto 2.5% auto;
+}
+
 @keyframes test {
     0% {border-color: #1A281F;}
     12.5% {border-color: #635255;}
@@ -41,16 +47,19 @@ img {
 .img-info {
     display: block;
     text-align: center;
+    outline: none;
     border: 0;
     padding: 0;
-    width: 50%;    
+    width: 75%;    
 }
 
 main div {
     position: relative;
+    background-color: aqua;
     border: 5px;
     border-style: solid;
     border-color: red;
+    outline: 6px solid #0D1F22;
     margin: 0 auto 0 auto;
-    width: 75%;
+    width: 50%;
 }
